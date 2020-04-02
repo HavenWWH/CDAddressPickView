@@ -1,0 +1,6 @@
+framework module CDAddressPickView {
+  umbrella header "CDAddressPickView-umbrella.h"
+
+  export *
+  module * { export * }
+}

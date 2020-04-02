@@ -1,0 +1,6 @@
+framework module Pods_CDAddressPickView_Tests {
+  umbrella header "Pods-CDAddressPickView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

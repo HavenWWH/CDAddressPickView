@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CDAddressPickView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CDAddressPickView.'
+  s.summary          = '省市区选择器'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+选择省, 市, 区
                        DESC
 
-  s.homepage         = 'https://github.com/513433750@qq.com/CDAddressPickView'
+  s.homepage         = 'https://github.com/HavenWWH'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '513433750@qq.com' => '513433750@qq.com' }
-  s.source           = { :git => 'https://github.com/513433750@qq.com/CDAddressPickView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitlab.ttsing.com/ios/CDAddressPickView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CDAddressPickView/Classes/**/*'
+  s.source_files  = "CDAddressPickView/**/*.{h,m}"
+  s.resources = 'CDAddressPickView/**/*.{png,xib,nib,bundle,json}'
   
   # s.resource_bundles = {
   #   'CDAddressPickView' => ['CDAddressPickView/Assets/*.png']

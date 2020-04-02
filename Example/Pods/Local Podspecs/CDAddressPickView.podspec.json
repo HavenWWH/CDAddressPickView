@@ -1,0 +1,23 @@
+{
+  "name": "CDAddressPickView",
+  "version": "0.1.0",
+  "summary": "省市区选择器",
+  "description": "选择省, 市, 区",
+  "homepage": "https://github.com/HavenWWH",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "513433750@qq.com": "513433750@qq.com"
+  },
+  "source": {
+    "git": "https://gitlab.ttsing.com/ios/CDAddressPickView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CDAddressPickView/**/*.{h,m}",
+  "resources": "CDAddressPickView/**/*.{png,xib,nib,bundle,json}"
+}

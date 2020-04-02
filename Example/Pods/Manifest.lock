@@ -1,0 +1,16 @@
+PODS:
+  - CDAddressPickView (0.1.0)
+
+DEPENDENCIES:
+  - CDAddressPickView (from `../`)
+
+EXTERNAL SOURCES:
+  CDAddressPickView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CDAddressPickView: bbd02d12748417ee6314506c059a55bb5d8a16d1
+
+PODFILE CHECKSUM: 36ff203260532acace521cee3f2750ef2e94c3dc
+
+COCOAPODS: 1.9.0
