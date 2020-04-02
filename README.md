@@ -20,6 +20,19 @@ it, simply add the following line to your Podfile:
 pod 'CDAddressPickView'
 ```
 
+## 使用方法
+```
+[CDAddressPickView createAddressPickViewSelectBlock:^(id obj) {
+
+    CDAddressPickViewModel *model = (CDAddressPickViewModel *)obj;
+    NSString *province = model.selectedProvince.name;
+    NSString *city = model.selectedCitie.name;
+    NSString *area = model.selectedArea.name;
+    NSString *addressStr = [province isEqualToString:city] ? [NSString stringWithFormat:@"%@%@", province, area] : [NSString stringWithFormat:@"%@%@%@", province, city, model.selectedArea.name];
+    NSLog(@"addressStr %@",addressStr);
+}];
+```
+
 ## Author
 
 513433750@qq.com, 513433750@qq.com
